@@ -82,7 +82,8 @@ function placeOrder(cardNumber) {
  const totalCart = totalArray.reduce((a, b) => {
   return a + b})
 
-cart.length = 0
+  cart.length = 0
+  
     return `Your total cost is $${totalCart}, which will be charged to the card ${cardNumber}.`
   }
 }
