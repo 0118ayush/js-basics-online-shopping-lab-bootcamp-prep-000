@@ -57,7 +57,7 @@ function removeFromCart(item) {
   if (cartContent.includes(item) === false){
     return "That item is not in your cart."
   } else if (cartContent.includes(item) === true){
-    cart.splice(cart.indexOf(test)-1, 1)
+    cart.splice(cart.indexOf(item)-1, 1)
     return cart
   }
   
