@@ -81,7 +81,7 @@ function placeOrder(cardNumber) {
  }
  const totalCart = totalArray.reduce((a, b) => {
   return a + b})
- 
+
 
     return `Your total cost is $${totalCart}, which will be charged to the card ${cardNumber}.`
   }
